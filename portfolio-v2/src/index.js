@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
+document.documentElement.classList.add('dark'); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
