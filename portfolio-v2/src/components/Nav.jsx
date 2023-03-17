@@ -13,8 +13,9 @@ function Navbar() {
   };
 
   return (
-    <nav className="p-4 pl-5 border-gray-200 dark:bg-gray-700 dark:text-gray-200">
-      <div className="container flex flex-wrap items-center justify-between mx-auto mt-3">
+    <div className="left-0 fixed w-screen">
+    <nav className=" p-4 border-gray-200 bg-transparent dark:text-gray-200">
+      <div className="container flex flex-wrap items-center justify-between mx-auto mt-3 ">
         <NavLink to="/">
           <h1 className=" font-font-saira text-2xl font-extrabold dark:text-white text-gray-500 hover:text-green-800">
             Iffat Hossain
@@ -22,7 +23,7 @@ function Navbar() {
         </NavLink>
         <div className="flex items-center justify-items-end">
           <button
-            className="md:hidden text-gray-500 text-2xl dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+            className="md:hidden text-gray-500 text-2xl dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
             onClick={toggleDarkMode}
           >
             {darkMode ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
@@ -31,7 +32,7 @@ function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-200 hover:text-green-800 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 dark:text-white rounded-lg md:hidden dark:hove:text-green-800 hover:text-green-800 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           >
             <svg
               className="w-6 h-6"
@@ -51,7 +52,7 @@ function Navbar() {
         {isOpen && (
           <div
             onClick={handleClick}
-            class="z-10 mt-14 absolute w-1/2 top-2 right-1  dark:bg-green-800 bg-white divide-y divide-gray-100 rounded-xl shadow "
+            class="z-10 mt-14 absolute w-1/2 top-2 right-1 dark:bg-slate-800 bg-white divide-y divide-gray-100 rounded-xl shadow "
           >
             <ul
               class="py-2 text-sm dark:text-gray-200"
@@ -132,7 +133,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </nav>
+    </nav></div>
   );
 }
 
