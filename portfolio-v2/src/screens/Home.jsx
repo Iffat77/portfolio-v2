@@ -3,18 +3,18 @@ import React from "react";
 // import "./home.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import ObjectVisualization from "../components/ObjectVisualization";
-import StackVisualization from "../components/StackVisualization"
-  
+import StackVisualization from "../components/StackVisualization";
+
 const myObject = {
-  name: 'Iffat Hossain',
-  city: 'New York',
-  hobbies: ['Building Software', 'Watching Formula 1'],
+  name: "Iffat Hossain",
+  city: "New York",
+  hobbies: ["Building Software", "Watching Formula 1"],
   skills: {
-    stacks: 'MERN',
-    languages: ['Javascript', 'Python', 'Nodejs', 'Mongosh'],
-    databases: ['MongoDB', 'Postgresql'],
-    frameworks: ['Reactjs', 'Django']
-  }
+    stacks: "MERN",
+    languages: ["Javascript", "Python", "Nodejs", "Mongosh"],
+    databases: ["MongoDB", "Postgresql"],
+    frameworks: ["Reactjs", "Django"],
+  },
 };
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
             <h2 className="font-font-work text-5xl md:text-7xl lg:pl-8 py-3 dark:text-white">
               Full Stack <br></br> Developer
             </h2>
-            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-8">
+            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
               I'm a software engineer based in NYC. Currently I'm a teaching
               assistant at General Assembly helping others learn full stack
               development!
@@ -35,32 +35,36 @@ export default function Home() {
         </section>
       </div>
 
-      <div className=" w-screen h-screen dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
-        
-        <section className="px-6 h-auto" >
-          <div className="pt-20 ">
-              <ObjectVisualization data={myObject} />
+      <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
+        <section className="px-6 h-full ">
+          <div className="pt-24 ">
+            <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
+              Lets interact
+            </h2>
+
+            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
+              Feel free to have a look at the quick info object to learn about
+              myself and technologies I'm familiar with.
+            </p>
           </div>
+          <div className="mt-4">
+            <ObjectVisualization data={myObject} />
+          </div>
+        </section>
+      </div>
+
+      <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
+        <section className="px-6 h-auto ">
+
+
+
+
+
           <div className="pt-20">
-          <StackVisualization />
-          </div> 
-
+            <StackVisualization />
+          </div>
         </section>
-
       </div>
-
-      <div className=" w-screen h-screen dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
-        
-        <section className="px-6 h-auto " >
-          {/* <div className="pt-20">
-          <StackVisualization />
-          </div>     */}
-
-        </section>
-
-      </div>
-
-
     </div>
   );
 }
