@@ -15,7 +15,7 @@ const StackVisualization = () => {
   };
 
   return (
-    <div className=" p-4  min-h-screen">
+    <div className="h-full">
       <div className="bg-gray-900 w-full md:w-1/2 dark:bg:black shadow-md rounded-md p-4">
         <div className="flex justify-around items-center mb-4">
           <div className="text-green-400 font-medium">My Stack</div>
@@ -36,7 +36,7 @@ const StackVisualization = () => {
               className={classNames(
                 "bg-red-500 hover:bg-red-600 text-white rounded-md px-2 py-1",
                 {
-                  "opacity-50 cursor-default": stack.length === 0,
+                  "cursor-default": stack.length === 0,
                 }
               )}
               onClick={handlePop}

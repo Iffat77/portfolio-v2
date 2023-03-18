@@ -11,7 +11,7 @@ const myObject = {
   hobbies: ["Building Software", "Watching Formula 1"],
   skills: {
     stacks: "MERN",
-    languages: ["Javascript", "Python", "Nodejs", "Mongosh"],
+    languages: ["Javascript", "Python"],
     databases: ["MongoDB", "Postgresql"],
     frameworks: ["Reactjs", "Django"],
   },
@@ -39,7 +39,7 @@ export default function Home() {
         <section className="px-6 h-full ">
           <div className="pt-24 ">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
-              Lets interact
+             While I've got you here lets interact
             </h2>
 
             <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
@@ -55,16 +55,48 @@ export default function Home() {
 
       <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
         <section className="px-6 h-auto ">
+        <div className="pt-24 ">
+            <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
+            Now now, I can't have you leaving without properly introducing you to my stack 
+            </h2>
 
-
-
-
-
+            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
+              Push the buttons <br></br>
+            </p>
+          </div>
+          
           <div className="pt-20">
             <StackVisualization />
           </div>
         </section>
       </div>
+
+      <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
+        <section className="px-6 h-auto ">
+        <div className="pt-24 ">
+            <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
+            Alright I'd say its time to segue from my terrible puns 
+            </h2>
+
+            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
+              And invite you to explore my projects  <br></br>
+              
+            </p>
+          </div>
+          
+          <div className="pt-20">
+            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
+              ENTER CONTACT CARD HERE 
+            </p>
+          </div>
+          
+        </section>
+      </div>
+      
+      <footer className="">
+        
+
+    </footer>
     </div>
   );
 }

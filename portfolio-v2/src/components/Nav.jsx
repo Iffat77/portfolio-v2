@@ -52,7 +52,7 @@ function Navbar() {
         {isOpen && (
           <div
             onClick={handleClick}
-            class="z-10 mt-14 absolute w-1/2 top-2 right-1 dark:bg-slate-800 bg-white divide-y divide-gray-100 rounded-xl shadow "
+            class=" mt-14 absolute w-1/2 top-2 right-1 dark:bg-slate-800 bg-white divide-y divide-gray-100 rounded-xl shadow "
           >
             <ul
               class="py-2 text-sm dark:text-gray-200"
@@ -65,7 +65,7 @@ function Navbar() {
                 <NavLink to="/about">About</NavLink>
               </li>
               <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
-                <NavLink to="/">Projects</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
                 <NavLink to="/">Contact</NavLink>
