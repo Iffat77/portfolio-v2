@@ -11,7 +11,11 @@ module.exports = {
       'font-michroma': ['Michroma', 'sans-serif'],
       'font-saira': ['Saira', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        neonGreen: '#39ff14',
+      },
+    },
   },
   plugins: [],
 }

@@ -22,7 +22,7 @@ const StackVisualization = () => {
           <div className="flex items-center space-x-2">
             <button
               className={classNames(
-                "bg-blue-500 hover:bg-blue-600 text-white rounded-md px-2 py-1",
+                "bg-gray-500 hover:bg-gray-700 text-white hover:text-green-400 rounded-md px-2 py-1",
                 {
                   "opacity-50 cursor-default": stack.length >= 5,
                 }
@@ -34,7 +34,7 @@ const StackVisualization = () => {
             </button>
             <button
               className={classNames(
-                "bg-red-500 hover:bg-red-600 text-white rounded-md px-2 py-1",
+                "bg-gray-500 hover:bg-gray-700 text-white hover:text-green-400 rounded-md px-2 py-1",
                 {
                   "cursor-default": stack.length === 0,
                 }

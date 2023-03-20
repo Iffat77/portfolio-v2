@@ -7,7 +7,7 @@ function Projects() {
       <section className="h-full mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto">
           <div className="block">
             <h2 className="font-font-work text-8xl pt-15 md:text-10xl lg:pl-8 lg:pt-24 py-3 dark:text-white">
-              The Iffat  Project
+              The Iffat Project
             </h2>
           </div>
         </section>
