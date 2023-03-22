@@ -57,8 +57,7 @@ export default function Home() {
         <section className="px-6 h-auto ">
           <div className="pt-24 ">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
-              Now now, I can't have you leaving without properly introducing you
-              to my stack
+              Below is my stack presented to you inside a stack
             </h2>
 
             <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
