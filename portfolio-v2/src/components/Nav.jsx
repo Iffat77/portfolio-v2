@@ -17,7 +17,7 @@ function Navbar() {
     <nav className=" p-4 border-gray-200 bg-transparent dark:text-gray-200">
       <div className="container flex flex-wrap items-center justify-between mx-auto mt-3 ">
         <NavLink to="/">
-          <h1 className=" font-font-saira text-2xl font-extrabold dark:text-white text-gray-500 hover:text-green-800">
+          <h1 className=" font-font-saira text-2xl font-extrabold dark:text-white text-gray-500 hover:text-black dark:hover:text-gray-200">
             Iffat Hossain
           </h1>
         </NavLink>
@@ -32,7 +32,7 @@ function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 dark:text-white rounded-lg md:hidden dark:hove:text-green-800 hover:text-green-800 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 dark:text-white rounded-lg md:hidden dark:hove:text-green-800 hover:text-black dark:hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           >
             <svg
               className="w-6 h-6"
@@ -58,22 +58,22 @@ function Navbar() {
               class="py-2 text-sm dark:text-gray-200"
               aria-labelledby="dropdownDefaultButton"
             >
-              <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
+              <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
+              <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
                 <NavLink to="/about">About</NavLink>
               </li>
-              <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
+              <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
                 <NavLink to="/projects">Projects</NavLink>
               </li>
-              <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
+              <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
                 <NavLink to="/">Contact</NavLink>
               </li>
-              <li className="block px-4 py-2 hover:bg-gray-200 hover:text-green-800 ">
+              <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
                 <NavLink to="/">Resume</NavLink>
               </li>
-              <li class="block px-4 py-2 text-center cursor-pointer border-gray-500 hover:bg-gray-200 hover:text-green-800  ">
+              <li class="block px-4 py-2 text-center cursor-pointer dark:hover:bg-slate-600 border-gray-500 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200  ">
                 Close
               </li>
             </ul>
@@ -92,7 +92,7 @@ function Navbar() {
             <li>
               <NavLink
                 to="/"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-green-800  md:hover:bg-transparent md:border-0 md:p-0 "
+                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
                 aria-current="page"
               >
                 Home
@@ -101,7 +101,7 @@ function Navbar() {
             <li>
               <NavLink
                 to="/about"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-green-800 md:hover:bg-transparent md:border-0 md:p-0 "
+                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
               >
                 About
               </NavLink>
@@ -109,7 +109,7 @@ function Navbar() {
             <li>
               <NavLink
                 to="/projects"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-green-800 md:hover:bg-transparent md:border-0 md:p-0 "
+                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
               >
                 Projects
               </NavLink>
@@ -117,7 +117,7 @@ function Navbar() {
             <li>
               <NavLink
                 to="/contact"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-green-800 md:hover:bg-transparent md:border-0 md:p-0 "
+                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
               >
                 Contact
               </NavLink>
@@ -125,7 +125,7 @@ function Navbar() {
             <li>
               <NavLink
                 to="/resume"
-                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-green-800 md:hover:bg-transparent md:border-0 md:p-0 "
+                className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
               >
                 Resume
               </NavLink>

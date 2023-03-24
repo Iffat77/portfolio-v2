@@ -20,7 +20,7 @@ const myObject = {
 export default function Home() {
   return (
     <div>
-      <div className="pt-28 px-6 w-screen h-screen dark:bg-[#171614] dark:text-white">
+      <div className="pt-28 px-2 md:px-6 w-screen h-screen dark:bg-[#171614] dark:text-white">
         <section className="h-full mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto">
           <div className="block">
             <h2 className="font-font-work text-5xl md:text-7xl lg:pl-8 py-3 dark:text-white">
@@ -54,8 +54,8 @@ export default function Home() {
       </div>
 
       <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
-        <section className="px-6 h-auto ">
-          <div className="pt-24 ">
+        <section className="sm:px-6 h-auto ">
+          <div className="pt-24 px-6">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
               Below is my stack presented to you inside a stack
             </h2>
@@ -84,7 +84,7 @@ export default function Home() {
             <div className="pt-20 w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
             <a
               href="/projects"
-              className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group animate-pulse bg-green-600"
+              className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-green-600 hover:bg-green-800"
             >
               <span className="relative "> Projects</span>
               </a>

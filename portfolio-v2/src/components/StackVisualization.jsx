@@ -15,9 +15,9 @@ const StackVisualization = () => {
   };
 
   return (
-    <div className="h-full">
-      <div className="bg-gray-900 w-full md:w-1/2 dark:bg:black shadow-md rounded-md p-4">
-        <div className="flex justify-around items-center mb-4">
+    <div className="h-full w-screen px-4 sm:w-full">
+      <div className="bg-gray-900 w-full md:w-1/2 dark:bg:black shadow-md rounded-md p-4 ">
+        <div className="flex justify-around items-center mb-4 ">
           <div className="text-green-400 font-medium">My Stack</div>
           <div className="flex items-center space-x-2">
             <button
@@ -46,11 +46,11 @@ const StackVisualization = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center h-16">
+        <div className="flex justify-center items-center h-16 ">
           {stack.map((item, index) => (
             <div
               key={index}
-              className="bg-violet-500 text-white rounded-md px-4 py-2 mx-2"
+              className="bg-violet-500 text-white rounded-md px-4 py-2 mx-1"
             >
               {item}
             </div>
