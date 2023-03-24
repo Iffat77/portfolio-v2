@@ -15,6 +15,10 @@ module.exports = {
       colors: {
         neonGreen: '#39ff14',
       },
+      backgroundImage: {
+        'hero': "url('./assets/apexstratsbg.jpg')",
+        'airbot': "url('./assets/airqualbot.jpg')"
+      },
     },
   },
   plugins: [],
