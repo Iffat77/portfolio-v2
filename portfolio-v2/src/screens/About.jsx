@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <div className="h-screen w-full dark:bg-gray-700 dark:text-gray-300 ">
-      <div className="pt-28 px-6 w-screen h-screen dark:bg-[#04141E] dark:text-white overflow-auto">
+    <div className="h-screen dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
+      <div className="pt-28 px-6 dark:bg-[#04141E] dark:text-white ">
         <section className="h-full mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto">
           <div className="block">
             <h2 className="font-font-work text-6xl pt-15 md:text-7xl lg:pl-8 lg:pt-24 py-3 dark:text-white">
@@ -12,16 +12,16 @@ function About() {
           </div>
         </section>
 
-        <section className=" md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:px-8 lg:w-4/6">
+        <section className=" md:grid md:grid-cols-2 md:grid-rows-2 md:gap-8 md:px-2 lg:w-5/6 ">
           <div className="col-span-2 row-span-1">
             <p className="w-auto sm:max-w-lg md:max-w-none text-lg md:text-xl lg:pl-8 py-6 leading-8 h-full">
-              Hello Everyone! I'm Iffat and I like developing software others
-              can use and enjoy. I was first interested in coding when I watched
-              a movie called “The Social Network” however was able to pursue my
-              own journey into software in 2022. I attended the Software
-              Engineering Immersive at General Assembly which challenged me in
-              many ways, technically and mentally, but also allowed me to learn
-              and grow exponentially.
+              Hey there! I'm Iffat, and I love creating software that people can
+              actually use and have fun with. I first got into coding after
+              watching "The Social Network" (yup, that movie about Facebook),
+              but it wasn't until 2022 that I really got to dive into software
+              development. I took this program at General Assembly called the
+              Software Engineering Immersive, and let me tell you, it was tough
+              - but I learned so much and grew a ton as a person!
               <br></br>
             </p>
           </div>
@@ -29,8 +29,8 @@ function About() {
             <p className="w-auto max-w-lg text-lg md:text-xl lg:pl-8 py-6 leading-8 h-full">
               After graduating from the boot camp I was presented with the
               opportunity to work at GA as a teaching assistant. This experience
-              has allowed me to focus on my core fundamentals even further so that
-              I can help my students in the best capacity. Along with the
+              has allowed me to focus on my core fundamentals even further so
+              that I can help my students in the best capacity. Along with the
               improvement of technical skills I’ve been able to hone my
               communication skills and have learned how to simplify complex
               ideas in an easily digestable manner.
@@ -38,19 +38,28 @@ function About() {
             </p>
           </div>
           <div className="col-span-1 row-span-1">
-            <p className="w-auto max-w-lg text-lg md:text-xl lg:pl-8 py-6 leading-8 h-full">
-              I'm currently working on learning new technologies which I not
-              only find interesting but also try to find things being used in
-              industry to have a wide array of experiences. I also enjoy working
-              on my own personal projects, like an app I’ve been working on that
-              allows tracking of player stats from the game apex legends or
-              smaller projects like creating twitter bots. Of Course if you want
-              to check out my projects just head over to the projects section or
-              my GitHub!
+            <p className="w-auto max-w-xl text-lg md:text-xl lg:pl-8 py-6 leading-8 h-full">
+              Right now, I'm learning all about new tech that I find interesting
+              and useful in the real world, so I can get a lot of experience
+              under my belt. Plus, I'm always working on my own projects - like
+              an app that keeps track of stats for Apex Legends players or
+              little Twitter bots. If you want to check out what I'm up to, just
+              head over to my projects section or my GitHub profile!
             </p>
           </div>
         </section>
       </div>
+
+      <footer className="w-1/2 h-1/2">
+        {/* <div class="grid grid-rows-6 gap-4">
+          <div class="bg-red-500 h-4"></div>
+          <div class="bg-blue-500 h-4"></div>
+          <div class="bg-green-500 h-4"></div>
+          <div class="bg-yellow-500 h-4"></div>
+          <div class="bg-purple-500 h-4"></div>
+          <div class="bg-pink-500 h-4"></div>
+        </div> */}
+      </footer>
     </div>
   );
 }

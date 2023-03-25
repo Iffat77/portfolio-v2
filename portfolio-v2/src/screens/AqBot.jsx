@@ -68,7 +68,7 @@ function AqBot() {
                 href="https://twitter.com/AirqualBot"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white  shadow-2xl group animate-pulse bg-amber-600  hover:bg-orange-700"
+                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white  shadow-2xl group animate-pulse bg-sky-600 hover:bg-blue-700"
               >
                 <span className="relative "> AiqualBot</span>
               </a>
@@ -78,7 +78,7 @@ function AqBot() {
                 href="https://github.com/Iffat77/apex-stat-tracker"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-amber-600  hover:bg-orange-700"
+                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-sky-600 hover:bg-blue-700"
               >
                 <span className="relative "> Github Repo </span>
               </a>

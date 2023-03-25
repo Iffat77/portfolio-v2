@@ -15,7 +15,7 @@ const StackVisualization = () => {
   };
 
   return (
-    <div className="h-full w-screen px-4 sm:w-full">
+    <div className="h-full w-screen p-4 md:px-0 sm:w-full">
       <div className="bg-gray-900 w-full md:w-1/2 dark:bg:black shadow-md rounded-md p-4 ">
         <div className="flex justify-around items-center mb-4 ">
           <div className="text-green-400 font-medium">My Stack</div>

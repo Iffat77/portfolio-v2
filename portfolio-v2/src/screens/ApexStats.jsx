@@ -1,8 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function ApexStats() {
   return (
-    <div className="h-screen w-screen bg-amber-50 dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
+    <div className="h-screen w-screen dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
       <div className="pt-28 px-6 dark:text-white flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:grid-rows-5">
         <section className="sm:row-span-2 basis-96 lg:row-start-2 lg:row-span-3 h-full w-full rounded-md bg-hero bg-no-repeat bg-cover bg-center"></section>
         <div className=" font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white">
