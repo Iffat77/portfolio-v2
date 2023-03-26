@@ -1,5 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import resume from '../assets/resume.pdf'
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 function Navbar() {
@@ -69,7 +70,7 @@ function Navbar() {
                 </li>
 
                 <li className="block px-4 py-2 dark:hover:bg-slate-600 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 ">
-                  <NavLink to="/">Resume</NavLink>
+                <a  href = {resume} target = "_blank">Resume</a> 
                 </li>
                 <li class="block px-4 py-2 text-center cursor-pointer dark:hover:bg-slate-600 border-gray-500 hover:bg-gray-200 hover:text-black dark:hover:text-gray-200  ">
                   Close
@@ -114,12 +115,7 @@ function Navbar() {
               </li>
 
               <li>
-                <NavLink
-                  to="/resume"
-                  className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 "
-                >
-                  Resume
-                </NavLink>
+              <a className="block py-2 pl-3 pr-4 rounded hover:bg-gray-200 hover:text-black dark:hover:text-gray-200 md:hover:bg-transparent md:border-0 md:p-0 " href = {resume} target = "_blank">Resume</a> 
               </li>
             </ul>
           </div>

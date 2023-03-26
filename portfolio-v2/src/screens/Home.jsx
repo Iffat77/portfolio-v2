@@ -89,7 +89,7 @@ export default function Home() {
         </section>
       </div> */}
 
-      <div className="dark:bg-[#04141E] bg-[#b0c0bc] dark:text-white snap-start ">
+      <div className="dark:bg-[#04141E] bg-white dark:text-white snap-start ">
         <section className=" pt-24 px-6 h-screen overflow-auto ">
           <div className="pt-24 px-6 ">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">

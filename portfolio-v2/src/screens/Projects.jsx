@@ -26,7 +26,7 @@ function Projects() {
         </div>
       </div>
 
-      {/* <div className="h-full w-full"></div> */}
+
       <div className="pt-28 snap-end px-6 w-screen h-screen dark:text-white grid grid-cols-1 grid-rows-7 lg:grid-cols-2 lg:grid-rows-3 md:gap-4 mb-10 ">
         <section className="row-span-4 lg:row-start-2 lg:row-span-2 h-full w-full rounded-md bg-airbot bg-no-repeat bg-cover bg-center"></section>
         <h2 className="font-font-kanit justify-self-start place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white">
@@ -41,7 +41,7 @@ function Projects() {
           </p>
         </div>
 
-        <div className="w-full row-span-1 r max-w-lg text-xl md:text-2xl lg:row-start-3 lg:pl-8 place-self-center lg:place-self-center lg:justify-self-start ">
+        <div className="w-full row-span-1 text-xl md:text-2xl lg:row-start-3 lg:pl-8 place-self-center lg:place-self-center lg:justify-self-start ">
           <NavLink to="/projects/aqbot">
             <h1 className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group animate-puls bg-sky-600 hover:bg-blue-700">
               <span className="relative "> View </span>
@@ -50,21 +50,6 @@ function Projects() {
         </div>
       </div>
 
-      {/* <section className="h-full mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto">
-          <div className="block">
-            <h2 className="font-font-work text-8xl pt-15 md:text-10xl lg:pl-8 lg:pt-24 py-3 dark:text-white">
-              The Second project
-            </h2>
-          </div>
-        </section>
-      
-        <section className="h-full mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto">
-          <div className="block">
-            <h2 className="font-font-work text-8xl pt-15 md:text-10xl lg:pl-8 lg:pt-24 py-3 dark:text-white">
-              The Third project
-            </h2>
-          </div>
-        </section> */}
       {/* <footer className="">
         <div class="grid grid-rows-6 gap-4">
           <div class="bg-red-500 h-4"></div>
