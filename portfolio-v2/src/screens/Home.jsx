@@ -101,12 +101,12 @@ export default function Home() {
               technologies. <br></br>
             </p>
             <div className="pt-20 w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
-              <a
-                href="/projects"
-                className="relative inline-flex items-center rounded-md justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-green-600 hover:bg-green-800"
+              <NavLink
+                to="/projects"
+                className="relative inline-flex items-center rounded-md justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-green-600 hover:bg-green-800 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Projects</span>
-              </a>
+              </NavLink>
             </div>
           </div>
         </section>

@@ -2,9 +2,9 @@ import React from "react";
 
 function AqBot() {
   return (
-    <div className="h-screen w-screen bg-amber-50 dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
+    <div className="h-screen w-screen dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
       <div className="pt-28 px-6  dark:text-white flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:grid-rows-5">
-        <section className=" basis-96 lg:row-start-2 lg:row-end-3 xl:row-end-4  rounded-md bg-airbot bg-cover bg-center bg-no-repeat"></section>
+        <section className=" basis-96 lg:row-start-2 lg:row-end-3 xl:row-end-4  rounded-md bg-airbot bg-cover bg-center bg-no-repeat shadow-black shadow-md"></section>
 
         <div className=" font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 mb-4 lg:mb-1 dark:text-white">
           <h2 className="">AiQual Twitter Bot</h2>
@@ -68,7 +68,7 @@ function AqBot() {
                 href="https://twitter.com/AirqualBot"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white  shadow-2xl group animate-pulse bg-sky-600 hover:bg-blue-700"
+                className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-sky-600 hover:bg-blue-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> AiqualBot</span>
               </a>
@@ -78,7 +78,7 @@ function AqBot() {
                 href="https://github.com/Iffat77/apex-stat-tracker"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-sky-600 hover:bg-blue-700"
+                className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-sky-600 hover:bg-blue-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Github Repo </span>
               </a>

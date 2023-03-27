@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 function ApexStats() {
   return (
-    <div className="h-screen w-screen dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
+    <div className="h-screen w-screen dark:bg-[#04141E]  dark:text-gray-300 overflow-auto">
       <div className="pt-28 px-6 dark:text-white flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:grid-rows-5">
-        <section className="sm:row-span-2 basis-96 lg:row-start-2 lg:row-span-3 h-full w-full rounded-md bg-hero bg-no-repeat bg-cover bg-center"></section>
+        <section className="sm:row-span-2 basis-96 lg:row-start-2 lg:row-span-3 h-full w-full rounded-md bg-hero bg-no-repeat bg-cover bg-center shadow-black shadow-md"></section>
         <div className=" font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white">
           {/* font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white */}
           <h2 className="">Apex Stat Tracker</h2>
@@ -56,7 +56,7 @@ function ApexStats() {
               <a
                 href="https://apexstatstraker.netlify.app/"
                 target="_blank" rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white  shadow-2xl group animate-pulse bg-amber-600  hover:bg-orange-700"
+                className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Live Site</span>
               </a>
@@ -65,7 +65,7 @@ function ApexStats() {
               <a
                 href="https://github.com/Iffat77/apex-stat-tracker"
                 target="_blank" rel="noopener noreferrer"
-                className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-amber-600  hover:bg-orange-700"
+                className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Github Repo </span>
               </a>
@@ -74,16 +74,7 @@ function ApexStats() {
         </div>
       </div>
 
-      <footer className="w-1/2 h-1/2">
-        <div class="grid grid-rows-6 gap-4">
-          <div class="bg-red-500 h-4"></div>
-          <div class="bg-blue-500 h-4"></div>
-          <div class="bg-green-500 h-4"></div>
-          <div class="bg-yellow-500 h-4"></div>
-          <div class="bg-purple-500 h-4"></div>
-          <div class="bg-pink-500 h-4"></div>
-        </div>
-      </footer>
+     
     </div>
   );
 }

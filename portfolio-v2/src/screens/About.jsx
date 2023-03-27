@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div className="h-screen dark:bg-[#04141E] dark:text-gray-300 overflow-auto">
-      <div className="pt-28 px-6 dark:bg-[#04141E] dark:text-white ">
-        <section className="h-1/2 mt-4 p-4 top-0 left-0 right-0 bottom-auto w-auto">
+      <div className="pt-28 px-8 dark:bg-[#04141E] dark:text-white ">
+        <section className="mt-4 top-0 left-0 right-0 bottom-auto w-auto">
           <div className="block">
             <h2 className="font-font-work text-6xl pt-15 md:text-7xl lg:pl-8 lg:pt-24 py-3 dark:text-white">
               A Bit <br></br> About Me
@@ -12,8 +12,8 @@ function About() {
           </div>
         </section>
 
-        <section className=" md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 md:px-2 lg:w-5/6 ">
-          <div className="col-span-2 row-span-1">
+        <section className=" md:grid md:grid-cols-2 md:grid-rows-2 md:gap-6 md:px-4 lg:w-5/6 mb-20">
+          <div className="col-span-2 row-span-1 pt-20 md:pt-24">
             <p className="w-auto sm:max-w-lg md:max-w-none text-lg md:text-xl lg:pl-8 py-6 leading-8 h-1/2">
               Hey there! I'm Iffat, and I love creating software that people can
               actually use and have fun with. I first got into coding after
@@ -50,16 +50,6 @@ function About() {
         </section>
       </div>
 
-      <footer className="w-1/2 h-1/2">
-        {/* <div class="grid grid-rows-6 gap-4">
-          <div class="bg-red-500 h-4"></div>
-          <div class="bg-blue-500 h-4"></div>
-          <div class="bg-green-500 h-4"></div>
-          <div class="bg-yellow-500 h-4"></div>
-          <div class="bg-purple-500 h-4"></div>
-          <div class="bg-pink-500 h-4"></div>
-        </div> */}
-      </footer>
     </div>
   );
 }
