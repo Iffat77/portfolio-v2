@@ -71,24 +71,6 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white ">
-        <section className="sm:px-6 h-auto ">
-          <div className="pt-24 px-6">
-            <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
-              Below is my stack presented to you inside a stack
-            </h2>
-
-            <p className="w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
-              Push the buttons <br></br>
-            </p>
-          </div>
-
-          <div className="pt-20 lg:pl-8">
-            <StackVisualization />
-          </div>
-        </section>
-      </div> */}
-
       <div className="dark:bg-[#04141E] bg-white dark:text-white snap-start ">
         <section className=" pt-24 px-6 h-screen overflow-auto ">
           <div className="sm:pt-24 px-6 ">
@@ -108,39 +90,17 @@ export default function Home() {
                 <span className="relative "> Projects</span>
               </NavLink>
             </div>
+            <div className="pt-20 w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10">
+              <a
+                href='mailto:iffathossain77@gmail.com' target="_blank"
+                className="relative inline-flex items-center rounded-md justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-green-600 hover:bg-green-800 shadow-gray-500 shadow-md dark:shadow-none"
+              >
+                <span className="relative "> Contact</span>
+              </a>
+            </div>
           </div>
         </section>
       </div>
-
-      {/* <div className="pt-24 px-6 ">
-          <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
-              Learn more about me, or keep scrolling
-            </h2>
-
-            <div className="pt-20 w-auto max-w-lg text-xl md:text-2xl lg:pl-8 py-6 leading-10 flex flex-row justify-between">
-              <div className=" max-w-lg text-xl md:text-2xl ">
-                <NavLink to='/about'>
-                <h1
-                  className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white  shadow-2xl group animate-pulse bg-green-600 hover:bg-green-800"
-                >
-                  <span className="relative ">About</span>
-                </h1>
-
-
-                </NavLink>
-              </div>
-              <div className="max-w-lg text-xl md:text-2xl ">
-                <a
-                  href="/resume"
-                  className="relative inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white shadow-2xl group animate-pulse bg-green-600 hover:bg-green-800"
-                >
-                  <span className="relative "> Resume </span>
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-      {/* <div className="dark:bg-[#04141E] bg-[#b0c0bc] dark:text-white snap-start "></div> */}
     </div>
   );
 }
