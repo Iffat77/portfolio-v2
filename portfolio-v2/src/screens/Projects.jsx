@@ -18,11 +18,11 @@ function Projects() {
             username.
           </p>
         </div>
-        <div className="w-full row-span-1 text-xl md:text-2xl lg:row-start-3 lg:pl-8 place-self-center lg:place-self-center lg:justify-self-start ">
+        <div className="w-full row-span-1 text-xl  pb-2 md:text-2xl lg:row-start-3 lg:pl-8  md:place-self-center lg:place-self-center lg:justify-self-start ">
           <NavLink to="/projects/apexstats">
-            <h1 className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none">
+            <div className="relative inline-flex items-center justify-center px-5 py-2 md:px-6 md:py-3 overflow-hidden font-bold text-white rounded-md group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none">
               <span className="relative "> View </span>
-            </h1>
+            </div>
           </NavLink>
         </div>
       </div>
@@ -42,11 +42,11 @@ function Projects() {
           </p>
         </div>
 
-        <div className="w-full row-span-1 text-xl md:text-2xl lg:row-start-3 lg:pl-8 place-self-center lg:place-self-center lg:justify-self-start ">
+        <div className="w-full row-span-1 text-xl pb-2 md:text-2xl lg:row-start-3 lg:pl-8 md:place-self-center lg:place-self-center lg:justify-self-start ">
           <NavLink to="/projects/aqbot">
-            <h1 className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md group animate-puls bg-sky-600 hover:bg-blue-700 shadow-gray-500 shadow-md dark:shadow-none">
+            <div className="relative inline-flex items-center justify-center px-5 py-2 md:px-6 md:py-3 overflow-hidden font-bold text-white rounded-md group animate-puls bg-sky-600 hover:bg-blue-700 shadow-gray-500 shadow-md dark:shadow-none">
               <span className="relative "> View </span>
-            </h1>
+            </div>
           </NavLink>
         </div>
       </div>
