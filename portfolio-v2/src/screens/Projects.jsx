@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 function Projects() {
   return (
-    <div className="snap-y snap-mandatory md:scroll-pb-10 h-screen w-screen mx:auto overflow-x-hidden dark:bg-[#04141E] dark:text-gray-300 ">
+    <div className="snap-y snap-mandatory scroll-pb-8 md:scroll-pb-10 h-screen w-screen mx:auto overflow-x-hidden dark:bg-[#04141E] dark:text-gray-300 ">
      
       <div className="pt-28 px-6 snap-end h-screen dark:text-white grid grid-cols-1 grid-rows-7 lg:grid-cols-2 lg:grid-rows-3 gap-2 md:gap-4 ">
         <section className="row-span-4 lg:row-start-2 lg:row-span-2 h-full w-full rounded-md bg-hero bg-no-repeat bg-cover bg-center shadow-black shadow-md"></section>
