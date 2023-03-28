@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 
 function ApexStats() {
   return (
@@ -7,7 +7,6 @@ function ApexStats() {
       <div className="pt-28 px-6 dark:text-white flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:grid-rows-5">
         <section className="sm:row-span-2 basis-96 lg:row-start-2 lg:row-span-3 h-full w-full rounded-md bg-hero bg-no-repeat bg-cover bg-center shadow-black shadow-md"></section>
         <div className=" font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white">
-          {/* font-font-kanit justify-self-center place-self-center row-span-1 lg:col-span-2 lg:row-span-1 text-4xl md:text-6xl lg:pl-8 pt-3 dark:text-white */}
           <h2 className="">Apex Stat Tracker</h2>
         </div>
         <div className="lg:row-start-2 row-span-1">

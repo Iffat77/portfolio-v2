@@ -1,9 +1,6 @@
 import React from "react";
-// import { Link } from
-// import "./home.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import ObjectVisualization from "../components/ObjectVisualization";
-import StackVisualization from "../components/StackVisualization";
 import { NavLink } from "react-router-dom";
 
 const myObject = {

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Projects() {
   return (
@@ -51,16 +51,6 @@ function Projects() {
         </div>
       </div>
 
-      {/* <footer className="">
-        <div class="grid grid-rows-6 gap-4">
-          <div class="bg-red-500 h-4"></div>
-          <div class="bg-blue-500 h-4"></div>
-          <div class="bg-green-500 h-4"></div>
-          <div class="bg-yellow-500 h-4"></div>
-          <div class="bg-purple-500 h-4"></div>
-          <div class="bg-pink-500 h-4"></div>
-        </div>
-      </footer> */}
     </div>
   );
 }
