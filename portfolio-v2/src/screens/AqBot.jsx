@@ -75,7 +75,7 @@ function AqBot() {
             </div>
             <div className="max-w-lg text-xl md:text-2xl ">
               <a
-                href="https://github.com/Iffat77/apex-stat-tracker"
+                href="https://github.com/Iffat77/aqbot/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-sky-600 hover:bg-blue-700 shadow-gray-500 shadow-md dark:shadow-none"
