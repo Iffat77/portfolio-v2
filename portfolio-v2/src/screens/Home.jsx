@@ -21,7 +21,7 @@ const myObject = {
 export default function Home() {
   return (
     <div className=" snap-y snap-mandatory h-screen w-screen mx:auto overflow-x-hidden">
-      <div className="pt-28 px-2 md:px-6 w-screen h-screen dark:bg-[#171614] dark:text-white snap-start">
+      <div className="pt-28 md:px-6 w-screen h-screen dark:bg-[#171614] dark:text-white snap-start">
         <section className="h-full sm:mt-8 p-10 top-0 left-0 right-0 bottom-auto w-auto ">
           <div className="block">
             <h2 className="font-font-work text-5xl md:text-7xl lg:pl-8 py-3 dark:text-white">
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className="dark:bg-[#1E0A16] bg-[#b0c0bc] dark:text-white snap-start">
         <section className=" pt-24 px-6 h-screen overflow-auto ">
-          <div className="sm:pt-24 px-6 ">
+          <div className="sm:pt-24 px-2 ">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
               While I've got you here lets interact
             </h2>
@@ -65,7 +65,7 @@ export default function Home() {
               myself and technologies I'm familiar with.
             </p>
           </div>
-          <div className="mt-4 pl-4 lg:pl-10">
+          <div className="mt-4 pl-1 lg:pl-10">
             <ObjectVisualization data={myObject} />
           </div>
         </section>
@@ -73,7 +73,7 @@ export default function Home() {
 
       <div className="dark:bg-[#04141E] bg-white dark:text-white snap-start ">
         <section className=" pt-24 px-6 h-screen overflow-auto ">
-          <div className="sm:pt-24 px-6 ">
+          <div className="sm:pt-24 px-2 ">
             <h2 className="font-font-work text-4xl md:text-5xl lg:pl-8 py-6 dark:text-white">
               View my work
             </h2>
