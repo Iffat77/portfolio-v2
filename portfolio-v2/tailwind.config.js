@@ -17,7 +17,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('./assets/apexstratsbg.jpg')",
-        'airbot': "url('./assets/airqualbot.jpg')"
+        'airbot': "url('./assets/airqualbot.jpg')",
+        'lesscarbon': "url('./assets/lesscarbon.jpg')"
       },
     },
   },

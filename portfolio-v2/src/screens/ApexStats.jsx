@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function ApexStats() {
   return (
     <div className="h-screen w-screen dark:bg-[#04141E]  dark:text-gray-300 overflow-auto">
@@ -54,7 +53,8 @@ function ApexStats() {
             <div className=" max-w-lg text-xl md:text-2xl ">
               <a
                 href="https://apexstatstraker.netlify.app/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Live Site</span>
@@ -63,7 +63,8 @@ function ApexStats() {
             <div className="max-w-lg text-xl md:text-2xl ">
               <a
                 href="https://github.com/Iffat77/apex-stat-tracker"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative rounded-md inline-flex lg:items-center lg:justify-center px-6 py-3 overflow-hidden font-bold text-white group animate-pulse bg-amber-600  hover:bg-orange-700 shadow-gray-500 shadow-md dark:shadow-none"
               >
                 <span className="relative "> Github Repo </span>
@@ -72,8 +73,6 @@ function ApexStats() {
           </div>
         </div>
       </div>
-
-     
     </div>
   );
 }

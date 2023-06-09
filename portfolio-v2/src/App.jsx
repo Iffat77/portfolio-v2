@@ -6,6 +6,7 @@ import About from "./screens/About";
 import Projects from "./screens/Projects";
 import ApexStats from "./screens/ApexStats";
 import AqBot from "./screens/AqBot";
+import LessCarbon from "./screens/LessCarbon";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/apexstats" element={<ApexStats />} />
         <Route path="/projects/aqbot" element={<AqBot />} />
+        <Route path="/projects/lesscarbon" element={<LessCarbon />} />
       </Routes>
       <Footer />
     </div>
